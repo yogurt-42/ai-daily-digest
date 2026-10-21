@@ -1,6 +1,6 @@
-# ai-digest
+# ai-daily-digest
 
-一个可验证的每日 AI 早报 skill：**数字由脚本抓，模型只负责筛选和判断**。
+一个可验证的每日 AI 早报 skill（skill 名 `ai-digest`）：**数字由脚本抓，模型只负责筛选和判断**。
 抓不到就说抓不到，不编。
 
 ```
