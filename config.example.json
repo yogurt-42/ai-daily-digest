@@ -1,0 +1,10 @@
+{
+  "focus": ["大模型能力与定价", "agent / skill 工程"],
+  "length": 1100,
+  "tone": "偏工程，少形容词",
+  "delivery": "chat",
+  "qq": {
+    "user_id": 0,
+    "onebot_url": "ws://127.0.0.1:3001"
+  }
+}

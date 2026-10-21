@@ -1,0 +1,34 @@
+【行业新闻】
+
+英伟达发布 Nemotron 3.5 Super VL（1200 亿参数）和 Bolt 系列开放权重模型，主打企业智能体与本地 AI PC，称经智能体任务后训练，完成速度快过 Opus 5、GPT 6.1。(pingwest.com)
+判断：厂商自测别全信，但开放权重加工具调用专训值得进 agent 选型表。
+
+记忆张量开源 MemT 1.0，把可更新记忆做进模型，256K 长历史下推理快近 4 倍、存储缩到约 1/130，长会话 agent 不必狂堆上下文。(cnfin.com)
+判断：跨会话记状态可以试，但数字都是厂商口径，先小规模复现。
+
+DeepSeek 全面开源推理框架 DeepInfer，称可优化推理吞吐与延迟、降低部署成本，V4.1 Flash 已跑在上面。(stcn.com)
+判断：自建推理的人该看部署细节，但开源的是框架，别指望马上降本。
+
+AI 芯片公司 Tenstorrent 完成 15 亿美元 E 轮融资、估值 62 亿美元，非英伟达 AI 芯片再获加注。(sohu.com)
+判断：资本在押非英伟达芯片，但 agent 从业者短期无感，除非自建集群。
+
+【GitHub 热门】
+
+MadsLorentzen/ai-job-search — 在本机跑求职，用 Claude Code 评估岗位、改简历 — 今日 +3861 星（总计 60920 星）
+点评：求职者可用；做 agent 的看它怎么拆多步流程更值。
+
+cloudflare/security-audit-skill — 给 coding agent 的多阶段安全审计 skill，产出经独立验证的机器可读结果 — 今日 +1712 星（总计 34438 星）
+点评：做 skill 的该学它的阶段划分和验证闭环，安全从业者能直接用。
+
+stablyai/orca — 用一个界面管理整队 coding agent，跑在你自己的订阅上 — 今日 +1565 星（总计 99919 星）
+点评：同时开多个 agent 的人值得试，单任务没必要加这层编排。
+
+anomalyco/opencode — 开源 coding agent，可自己部署和改 — 今日 +1240 星（总计 219047 星）
+点评：想改 agent 循环的人适合，纯用 Claude Code 的可先不折腾。
+
+DietrichGebert/ponytail — 让 AI agent 像最懒的资深开发，优先不写新代码 — 今日 +1208 星（总计 169929 星）
+点评：被 agent 过度生成代码烦到的人值得装，本质是给 agent 加约束。
+
+【对你的意义】
+
+最值得看 cloudflare/security-audit-skill：它的阶段拆分、独立验证和机器可读输出，能直接套到下一个 skill。
